@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: calc(20% - 10px);
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#submitBtn {
+    background: #007bff;
+    color: white;
+}
+
+#cancelBtn {
+    background: #6c757d;
+    color: white;
+}
+
+button.edit {
+    background: #28a745;
+    color: white;
+}
+
+button.delete {
+    background: #dc3545;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#statusMsg {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
